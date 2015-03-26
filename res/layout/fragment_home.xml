@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/fragment_home_gv_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:numColumns="3"
+        android:verticalSpacing="4dp"
+        android:horizontalSpacing="6dp"
+        android:listSelector="@drawable/gridview_high_light_color"
+        android:padding="8dp" >
+    </GridView>
+
+</LinearLayout>
